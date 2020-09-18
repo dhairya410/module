@@ -67,42 +67,46 @@ div{
 				#x{
 					
 					width: 24%;
+					background-color: blue;
 					
 				}
 				#y{
 					
 					width: 24%;
+					background-color: orange;
 				}
 				#z{
 					
 					width: 24%;
-				}
-				.loll
-				{
-					display: inline;
-					float: left;
+					background-color: green;
 				}
 				}
 			@media(min-width:768px) and (max-width: 991px)	{
 				#x{
 					width: 35%;
+					background-color: orange;
 				}
 				#y{
 					width: 35%;
+					background-color: green;
 					}
 				#z{
 					width: 95%;
+					background-color: blue;
 				}					
 			}
 			@media(max-width: 768px){
 				#x{width: 100%;
+					background-color: green;
 
 				}
 				#y{
 					width: 100%;
+					background-color: blue;
 				}
 				#z{
 					width: 100%;
+					background-color: orange;
 				}
 				}
 
