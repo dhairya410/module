@@ -1,0 +1,114 @@
+div{
+				position: relative;
+				
+			}
+			h1{
+				padding-top: 30px;
+			}
+			#x{	
+				background-color: gray;
+				padding: 5px;
+				border: 5px solid black;
+				width: 355px;				
+				height: 125px;
+				margin: 35px;
+				position: relative;
+				float: left;
+
+			}
+			#y{background-color: gray;
+				padding:5px;
+				border: 5px solid black;
+				width: 355px;
+				height: 125px;
+				margin: 35px;
+				position: relative;
+				float: left;
+			}
+			#z{
+				background-color: gray;
+				padding: 5px;
+				border: 5px solid black;
+				width: 355px;			
+				height: 125px;
+				margin: 35px;
+				position: relative;
+				float: left;
+			}
+			#aa{
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				border: 4px solid black;
+				padding: 5px;
+				background-color: red;
+
+				
+				}
+			#bb{
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				border: 4px solid black;
+				padding: 5px;
+				background-color: yellow;
+				
+			}
+			#cc{
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				border: 4px solid black;
+				padding: 5px;
+				background-color: yellow;
+			}
+
+			@media (min-width: 992px){
+				#x{
+					
+					width: 24%;
+					
+				}
+				#y{
+					
+					width: 24%;
+				}
+				#z{
+					
+					width: 24%;
+				}
+				.loll
+				{
+					display: inline;
+					float: left;
+				}
+				}
+			@media(min-width:768px) and (max-width: 991px)	{
+				#x{
+					width: 35%;
+				}
+				#y{
+					width: 35%;
+					}
+				#z{
+					width: 95%;
+				}					
+			}
+			@media(max-width: 768px){
+				#x{width: 100%;
+
+				}
+				#y{
+					width: 100%;
+				}
+				#z{
+					width: 100%;
+				}
+				}
+
+
+
+			p{
+				float: left;
+				width: 70%;
+			}
